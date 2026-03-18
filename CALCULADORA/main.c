@@ -46,7 +46,7 @@ int main()
             return 0
             break;
         }
-printf("El resultado es %d\n", c)
+printf("El resultado es %d\n", c);
 }
     else
     { 
@@ -67,12 +67,12 @@ printf("El resultado es %d\n", c)
             h = f / g;
             break;
         case 5:
-            h = {int}f % {int}g;
+            h = (int)f % (int)g;
             break;
         default:
             return 0;
             break;
 }
-printf("El resultado es %fºn, h");
+printf("El resultado es %f\n", h);
     }
 }
