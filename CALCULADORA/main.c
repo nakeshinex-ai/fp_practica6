@@ -18,7 +18,7 @@ int main()
     printf("3. Multriplicacion\n");
     printf("4. Division\n");
     printf("5. Modulo\n");
-    printf("6. Salir")
+    printf("6. Salir");
     scanf("%c" , &op2);
 
         if (op == '1')
@@ -43,7 +43,7 @@ int main()
             c = a % b;
             break;
         default:
-            return 0
+            return 0;
             break;
         }
 printf("El resultado es %d\n", c);
