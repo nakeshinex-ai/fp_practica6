@@ -37,21 +37,42 @@ int main()
             c = a * b;
             break;
         case 4:
-            c = a / b 
+            c = a / b;
             break;
         case 5:
-            c = a % b 
+            c = a % b;
             break;
-
-        default:
-            break;
-        }
         default:
             return 0
-
+            break;
         }
 printf("El resultado es %d\n", c)
-    }else{ 
+}
+    else
+    { 
         printf("Ingresa los dos numeros con los q quieres operar(num1 num2\n)");
-        scanf("%d %d", &a &b); 
+        scanf("%f %f", &f , &g); 
+        switch (op2)
+        {
+        case 1:
+            h = f + g;
+            break;
+        case 2:
+            h = f - g;
+            break;
+        case 3:
+            h = f * g;
+            break;
+        case 4:
+            h = f / g;
+            break;
+        case 5:
+            h = {int}f % {int}g;
+            break;
+        default:
+            return 0;
+            break;
+}
+printf("El resultado es %fºn, h");
+    }
 }
